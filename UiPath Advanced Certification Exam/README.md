@@ -14,7 +14,7 @@ Note: Navigation can be achieved in multiple ways by the robot - choose whicheve
 - Click on Search;
 - Extract the values for the Vendor, City and Country and compare them with the values from the previously extracted table from the Display All Vendors page (check for EXACT match for all fields!);
 - If the values are not matching, this should be categorized as a Business Rule Exception;
-- If the Country does NOT belong to the group {""France"", ""Russia"", ""Italy""}, this should be categorized as the second Business Rule Exception. We can only process requests from these countries. Check the Country value extracted after the individual Tax ID search;
+- If the Country does NOT belong to the group {""Germany"", ""Russia"", ""Italy""}, this should be categorized as the second Business Rule Exception. We can only process requests from these countries. Check the Country value extracted after the individual Tax ID search;
 - If no Business Rule Exception, Append the resulting datatable from each page into an CSV file; you shouldn't worry about the headers and format of the output file.
 
 Constraints to follow in the development, using the REFrameWork:
